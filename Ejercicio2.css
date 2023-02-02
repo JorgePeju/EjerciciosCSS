@@ -11,8 +11,9 @@ div {color:olive}
 span.especial {color: purple}
 span#especial {color: fuchsia}
 table, th, td {
-    border: 1px solid;
+    border: 2px solid;
     border-collapse: collapse;
+    padding: 10px ;
     border-color:black
     }
 a {color: red}
