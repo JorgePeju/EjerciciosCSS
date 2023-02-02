@@ -1,0 +1,16 @@
+h1 { color:teal}
+strong {color: red;}
+h2 {color: blue}
+span.destacado {color: orange}
+td strong {color: orange}
+td {color: green}
+th.especial {color: orange}
+tfoot, tbody {color: red}
+caption {color: blue}
+div {color:olive}
+span.especial {color: purple}
+span#especial {color: fuchsia}
+table {border: solid 1px;}
+a {color: red}
+a > em {color: blue}
+a , #adicional {color: green}
