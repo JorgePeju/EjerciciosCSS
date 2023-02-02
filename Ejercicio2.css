@@ -10,7 +10,11 @@ caption {color: blue}
 div {color:olive}
 span.especial {color: purple}
 span#especial {color: fuchsia}
-table {border: solid 1px;}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color:black
+    }
 a {color: red}
 a > em {color: blue}
 a , #adicional {color: green}
