@@ -1,0 +1,46 @@
+/* {
+} */
+
+div, footer {
+	border: 1px solid black;
+}
+
+
+ .container{
+	display: grid;
+	flex-wrap: wrap;
+	gap: 10px;
+    grid-template-columns:  repeat(3, 1fr);
+    margin: 100px, 500px;
+}
+
+.imagenes {
+    display: grid;
+	flex-wrap: wrap;
+	gap: 10px;
+    grid-template-columns:  repeat(3, 1fr);
+}
+
+h1 {
+    grid-column: 1 / -1;
+}
+
+.publi {
+    grid-area: 2 / 1 / 4 / 1;
+}
+
+.titulo {
+    grid-area: 2 / 2 / 2 / -1;
+}
+
+.widget1 {
+    grid-area: 3 / 2;
+}
+
+.widget2 {
+    grid-area: 3 / 3;
+}
+
+footer {
+    grid-column: 1 / -1;
+}
