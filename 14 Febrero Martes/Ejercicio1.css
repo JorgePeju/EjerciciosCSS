@@ -1,0 +1,32 @@
+ * {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+ }   
+
+    div, footer {
+	border: 1px solid black;
+}
+
+ .container{
+	display: grid;
+	flex-wrap: wrap;
+    grid-template-columns:  repeat(2, 1fr);
+    
+}
+
+
+
+
+
+
+
+
+/*      ====      768     ====      */
+
+@media screen and (min-width:768px) {
+
+
+
+
+}
